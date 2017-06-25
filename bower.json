@@ -1,13 +1,15 @@
 {
   "name": "paper-search-input",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "authors": [
-    "Keith Hill <keith@dexs.ca>"
+    "Keith Hill <keith@dexs.ca>",
+    "lordoftheflies <laszlo.hegedus@dcherubits.hu>"
   ],
   "description": "An element providing a paper-input-like search, inspired by the search element on https://customelements.io",
   "keywords": [
     "web-component",
     "polymer",
+    "plutonium",
     "seed",
     "search",
     "input"
@@ -30,6 +32,7 @@
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
     "web-component-tester": "^4.0.0"
   }
 }

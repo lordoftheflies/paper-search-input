@@ -2,6 +2,7 @@
 <link rel="import" href="../iron-input/iron-input.html">
 <link rel="import" href="../iron-icons/iron-icons.html">
 <link rel="import" href="../paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../paper-styles/default-theme.html">
 <link rel="import" href="../iron-flex-layout/iron-flex-layout.html">
 <link rel="import" href="../iron-flex-layout/iron-flex-layout-classes.html">
 <link rel="import" href="../iron-resizable-behavior/iron-resizable-behavior.html">
@@ -21,8 +22,8 @@ Example:
   <template>
     <style is="custom-style" include="iron-flex iron-flex-alignment">
         :host {
-            --search-input-styles-base-color: #fe7701;
-            --search-input-styles-base-label-color: #fff;
+            --search-input-styles-base-color: var(--primary-color);
+            --search-input-styles-base-label-color: var(--primary-background-color);
             --icon-scale-factor-0: 50;
             --search-border-width-0: 1px;
             --search-border-radius-0: 2px;
